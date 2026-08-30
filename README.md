@@ -11,11 +11,11 @@ This project applies a complete machine learning workflow to a Student Performan
 - Examine distributions, relationships, correlations, missing values, and potential outliers.
 - Identify factors associated with `exam_score`.
 - Predict `exam_score` using Linear Regression.
-- Create a Pass/Fail target using a 50-mark threshold.
+- Create a Pass/Fail target using a 50 mark threshold.
 - Predict Pass/Fail using Logistic Regression.
 - Evaluate both models on training and testing data.
 - Assess possible overfitting or underfitting.
-- Summarize five meaningful student-performance insights.
+- Summarize five meaningful student performance insights.
 
 ## Dataset
 
@@ -74,7 +74,7 @@ The dataset contains 1,000 student records and 16 columns, including:
 The notebook uses a `scikit-learn` preprocessing pipeline:
 
 - Numeric variables → median imputation + standardization
-- Categorical variables → most-frequent imputation + one-hot encoding
+- Categorical variables → most frequent imputation + one-hot encoding
 - `student_id` → removed
 - Train/test split → 80/20
 - Classification split → stratified 80/20
